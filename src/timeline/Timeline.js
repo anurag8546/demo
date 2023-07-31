@@ -3,8 +3,7 @@ import Post from './posts/Post';
 import Suggestions from "./Suggestions";
 import "./Timeline.css";
 function Timeline() {
-    const [posts,setPosts]= useState([]);
-    const results= [
+    const [posts,setPosts]= useState([
         {
             user: "anur_g",
             postImage: 
@@ -32,9 +31,8 @@ function Timeline() {
             "https://www.wallpapers13.com/wp-content/uploads/2016/05/Beautiful-flower-with-soft-pink-blue-sky-and-white-clouds-Desktop-Wallpaper-HD-for-mobile-phones-and-laptops-1680x1050.jpg",
             likes:13,
             timestamp:"2d",
-        }
-    ]
-    setPosts(results);
+        },
+    ]);
     return(
         <div className="timeline">
         <div className="timeline__left">
