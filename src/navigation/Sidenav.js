@@ -7,9 +7,15 @@ import SlideshowIcon from "@mui/icons-material/Slideshow";
 import ChatIcon from "@mui/icons-material/Chat";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import MenuIcon from "@mui/icons-material/Menu";
+import { useNavigate } from "react-router-dom";
+import Profile from "../Profile";
 
 function Sidenav() {
+  const navigate = useNavigate();
+
+
   return (
     <div className="sidenav">
       <img
@@ -19,7 +25,7 @@ function Sidenav() {
       />
 
       <div className="sidenav__buttons">
-        <button className="sidenav__button">
+        <button className="sidenav__button" onClick={()=> {navigate('/')}}>
           <HomeIcon />
           <span>Home</span>
         </button>
@@ -47,7 +53,12 @@ function Sidenav() {
           <AddCircleOutlineIcon />
           <span>Create</span>
         </button>
+        <button className="sidenav__button" onClick={()=> {navigate('Profile')}}>
+          <AccountBoxIcon />
+          <span>Profile</span>
+        </button>
       </div>
+      
       <div className="sidenav__more">
           <button className="sidenav__button">
               <MenuIcon />

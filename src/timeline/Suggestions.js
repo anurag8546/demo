@@ -14,7 +14,7 @@ function Suggestions() {
                             <Avatar>R</Avatar>
                         </span>
                         <div className="username__info">
-                            <span className="username">redian</span>
+                            <span className="username">Reyan</span>
                             <span className="relation">New to Instagram</span>
                         </div>
                     </div>
@@ -24,10 +24,10 @@ function Suggestions() {
                 <div className="suggestions__username">
                     <div className="username__left">
                         <span className="avatar">
-                            <Avatar>R</Avatar>
+                            <Avatar>A</Avatar>
                         </span>
                         <div className="username__info">
-                            <span className="username">redian</span>
+                            <span className="username">Aqsa</span>
                             <span className="relation">New to Instagram</span>
                         </div>
                     </div>
@@ -37,10 +37,10 @@ function Suggestions() {
                 <div className="suggestions__username">
                     <div className="username__left">
                         <span className="avatar">
-                            <Avatar>R</Avatar>
+                            <Avatar>M</Avatar>
                         </span>
                         <div className="username__info">
-                            <span className="username">redian</span>
+                            <span className="username">Mexis</span>
                             <span className="relation">New to Instagram</span>
                         </div>
                     </div>
@@ -50,10 +50,10 @@ function Suggestions() {
                 <div className="suggestions__username">
                     <div className="username__left">
                         <span className="avatar">
-                            <Avatar>R</Avatar>
+                            <Avatar>N</Avatar>
                         </span>
                         <div className="username__info">
-                            <span className="username">redian</span>
+                            <span className="username">Nancy</span>
                             <span className="relation">New to Instagram</span>
                         </div>
                     </div>
